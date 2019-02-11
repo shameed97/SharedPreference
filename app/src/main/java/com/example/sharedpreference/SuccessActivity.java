@@ -8,15 +8,16 @@ import android.view.View;
 public class SuccessActivity extends AppCompatActivity {
 
     private SharedPreferencesConfig PreferenceConfig;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_success);
-        PreferenceConfig=new SharedPreferencesConfig(getApplicationContext());
+        PreferenceConfig = new SharedPreferencesConfig(getApplicationContext());
     }
 
     public void logout(View view) {
         PreferenceConfig.writeLoginStatus(false);
-        startActivity(new Intent(this,MainActivity.class));
+        startActivity(new Intent(this, MainActivity.class));
     }
 }
