@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SharedPreference</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="welcome_user">Welcome User</string>
+    <string name="logout">LogOut</string>
+    <string name="Login_preferences">com.apk.res.android_login_preference</string>
+<string name="login_status">com.apk.res.android_login_status</string>
+    <string name="User_name">Shagul</string>
+    <string name="Pass_word">Sha</string>
+</resources>
